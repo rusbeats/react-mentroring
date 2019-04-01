@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/rusbeats/react-mentroring/issues"
   },
-  "homepage": "https://github.com/rusbeats/react-mentroring#readme"
+  "homepage": "https://github.com/rusbeats/react-mentroring#readme",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
 }
