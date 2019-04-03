@@ -3,7 +3,9 @@ const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 
-module.exports={
+module.exports=env=>{
+  return{
+    mode: env,
     context: path.join(__dirname,'src'),
     devtool: 'source-map',
     entry:'./entry.js',
@@ -59,7 +61,7 @@ module.exports={
               }
             },
         devServer:{
-          hot: true,
+          hot: true
         },
     watch: false
-};
+}};
