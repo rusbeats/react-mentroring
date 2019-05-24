@@ -11,5 +11,6 @@ const filmDescription = 'The Matrix is a 1999 science fiction action'
 const Description = () => (
   <div className="film-desc">
     {filmDescription}
-  </div>);
+  </div>
+);
 export default Description;

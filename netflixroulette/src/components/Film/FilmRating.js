@@ -4,8 +4,8 @@ import React from 'react';
 const filmRating = '6';
 
 const FilmRating = () => (
-            <div className="film-rating">
-                {filmRating}
-            </div>
+  <div className="film-rating">
+    {filmRating}
+  </div>
 );
 export default FilmRating;

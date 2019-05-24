@@ -3,6 +3,6 @@ import React from 'react';
 const filmTitle = 'Matrix';
 
 const FilmTitle = () => (
-            <div className="film-title">{filmTitle}</div>
-    );
+  <div className="film-title">{filmTitle}</div>
+);
 export default FilmTitle;

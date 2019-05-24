@@ -1,7 +1,6 @@
 const path = require('path');
 const webpack = require('webpack');
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = env => ({
   mode: env,
@@ -19,10 +18,7 @@ module.exports = env => ({
       {
         test: /\.js$/,
         loader: 'babel-loader',
-        exclude: [/node_modules/],
-        query: {
-          presets: ['es2015', 'es2016', 'es2017', 'react'],
-        },
+        exclude: [/node_modules/]
       },
       {
         test: /\.(jpe?g|png|gif|svg)$/,

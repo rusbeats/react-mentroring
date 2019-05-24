@@ -1,13 +1,13 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import FilmPage from './Film/FilmPage';
 import SearchPage from './Search/SearchPage';
-import ErrorBoundary from './ErrorBoundary';
-import style from "../sass/style.scss";
+import style from '../sass/style.scss';
 // Main App component
 const App = () => (
-    <ErrorBoundary>
-        <SearchPage/>
-        <FilmPage/>
-    </ErrorBoundary>      
+  <div>
+    <SearchPage />
+    <FilmPage />
+  </div>
 );
 export default App;
