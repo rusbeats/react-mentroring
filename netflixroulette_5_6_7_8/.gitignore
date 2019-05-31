@@ -1,0 +1,9 @@
+node_modules
+dist
+.idea/*
+.next/*
+yarn.lock
+coverage/*
+cypress/fixtures/*
+cypress/plugins/*
+cypress/support/*

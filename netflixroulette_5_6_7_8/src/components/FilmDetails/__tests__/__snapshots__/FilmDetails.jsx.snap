@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FilmDetails should render correctly (snapshot) 1`] = `
+<div>
+  <FilmDetailsstyles__StyledDetails>
+    <FilmDetailsstyles__FilmDetailsHeaderWrapper>
+      <FilmDetailsstyles__FilmDetailsHeaderText>
+        netflixRoulette
+      </FilmDetailsstyles__FilmDetailsHeaderText>
+      <Link
+        href="/"
+      >
+        <Linkstyles__StyledLink>
+          <FilmDetailsstyles__FilmDetailsSearchButton>
+            search
+          </FilmDetailsstyles__FilmDetailsSearchButton>
+        </Linkstyles__StyledLink>
+      </Link>
+    </FilmDetailsstyles__FilmDetailsHeaderWrapper>
+    <FilmDetailsstyles__FilmDetailsWrapper>
+      <Imagestyles__Image />
+      <FilmDetailsstyles__FilmInfo>
+        <FilmDetailsstyles__FilmTitleAndRating>
+          <FilmDetailsstyles__FilmTitle />
+          <FilmDetailsstyles__FilmRating />
+        </FilmDetailsstyles__FilmTitleAndRating>
+        <FilmDetailsstyles__FilmYearAndDuration>
+          <FilmDetailsstyles__FilmYear>
+            NaN
+          </FilmDetailsstyles__FilmYear>
+          <div>
+            100
+             
+            filmsDetails.minuteAbbr
+          </div>
+        </FilmDetailsstyles__FilmYearAndDuration>
+        <FilmDetailsstyles__FilmOverview />
+      </FilmDetailsstyles__FilmInfo>
+    </FilmDetailsstyles__FilmDetailsWrapper>
+  </FilmDetailsstyles__StyledDetails>
+  <FilmDetailsstyles__FilmsByGenre>
+    filmsDetails.filmsByGenre
+  </FilmDetailsstyles__FilmsByGenre>
+</div>
+`;
+
+exports[`FilmDetails should render correctly if no film found (snapshot) 1`] = `<NotFound />`;

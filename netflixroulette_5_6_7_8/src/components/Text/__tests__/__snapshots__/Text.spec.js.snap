@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text should render correctly (snapshot) 1`] = `
+<Text
+  color="#000000"
+  cursor="pointer"
+  onClick={[MockFunction]}
+  pointerEvents="none"
+>
+  Text for render
+</Text>
+`;

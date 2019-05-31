@@ -1,0 +1,25 @@
+{
+  "parser": "babel-eslint",
+  "extends": "react",
+  "globals": {
+    "cy": true
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "jest": true
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "space-before-function-paren": 0,
+    "react/jsx-tag-spacing": ["error", {
+      "beforeSelfClosing": "always"
+    }]
+  },
+  "plugins": ["jest", "prettier"]
+}

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Footer should render correctly (snapshot) 1`] = `
+<Footer>
+  <Link
+    href="/"
+  >
+    <Linkstyles__StyledLink
+      color="#d15c6e"
+    >
+      netflixRoulette
+    </Linkstyles__StyledLink>
+  </Link>
+</Footer>
+`;

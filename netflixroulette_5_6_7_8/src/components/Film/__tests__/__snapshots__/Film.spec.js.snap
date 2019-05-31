@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Film should render correctly (snapshot) 1`] = `
+<div>
+  <Imagestyles__Image
+    src="http://some-url.com"
+  />
+  <Filmstyles__FilmTitleAndDateWrapper>
+    <Filmstyles__FilmTitle>
+      Test title
+    </Filmstyles__FilmTitle>
+    <Filmstyles__FilmDate>
+      2000
+    </Filmstyles__FilmDate>
+  </Filmstyles__FilmTitleAndDateWrapper>
+  <Filmstyles__FilmGenres>
+    one & 
+    two & 
+    three
+  </Filmstyles__FilmGenres>
+</div>
+`;

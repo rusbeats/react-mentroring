@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header should render correctly (snapshot) 1`] = `
+<header>
+  <Headerstyles__MainHeader>
+    <Headerstyles__HeaderText>
+      netflixRoulette
+    </Headerstyles__HeaderText>
+    <Headerstyles__SearchHeader>
+      header.searchText
+    </Headerstyles__SearchHeader>
+    <Headerstyles__SearchInput
+      onInput={[Function]}
+      onKeyPress={[Function]}
+    />
+    <Headerstyles__ButtonsWrapper>
+      <Headerstyles__SearchByButtons>
+        <Headerstyles__SearchByText>
+          header.searchBy
+        </Headerstyles__SearchByText>
+        <Button
+          active={false}
+          disabled={false}
+          margin={true}
+          onClick={[Function]}
+          size="small"
+        >
+          header.title
+        </Button>
+        <Button
+          active={false}
+          disabled={false}
+          onClick={[Function]}
+          size="medium"
+        >
+          header.genre
+        </Button>
+      </Headerstyles__SearchByButtons>
+      <Link
+        as="/search/"
+        href="/search?search=&searchBy=undefined"
+      >
+        <Button
+          active={true}
+          disabled={true}
+          size="big"
+        >
+          search
+        </Button>
+      </Link>
+    </Headerstyles__ButtonsWrapper>
+  </Headerstyles__MainHeader>
+  <Headerstyles__SubHeader>
+    <Text>
+       
+      header.found
+    </Text>
+    <Headerstyles__Sorting>
+      <Text>
+        header.sortBy
+      </Text>
+      <Text
+        color=""
+        cursor=""
+        onClick={[Function]}
+        pointerEvents=""
+      >
+        header.releaseDate
+      </Text>
+      <Text
+        color=""
+        cursor=""
+        onClick={[Function]}
+        pointerEvents=""
+      >
+        header.rating
+      </Text>
+    </Headerstyles__Sorting>
+  </Headerstyles__SubHeader>
+</header>
+`;

@@ -1,0 +1,175 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Films should render correctly when no results (snapshot) 1`] = `<NotFound />`;
+
+exports[`Films should render correctly when sorted by rating (snapshot) 1`] = `
+<Films>
+  <Link
+    as="/film/1"
+    href="/film?id=1"
+    key="1"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+            ],
+            "id": 1,
+            "poster_path": "https://some-image-1.jpg",
+            "release_date": "2000-01-31",
+            "title": "Test title 1",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+  <Link
+    as="/film/2"
+    href="/film?id=2"
+    key="2"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+              "Genre 2",
+            ],
+            "id": 2,
+            "poster_path": "https://some-image-2.jpg",
+            "release_date": "2001-03-31",
+            "title": "Test title 2",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+  <Link
+    as="/film/3"
+    href="/film?id=3"
+    key="3"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+              "Genre 2",
+              "Genre 3",
+            ],
+            "id": 3,
+            "poster_path": "https://some-image-3.jpg",
+            "release_date": "2002-05-31",
+            "title": "Untitled Avengers",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+</Films>
+`;
+
+exports[`Films should render correctly when sorted by releaseDate (snapshot) 1`] = `
+<Films>
+  <Link
+    as="/film/3"
+    href="/film?id=3"
+    key="3"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+              "Genre 2",
+              "Genre 3",
+            ],
+            "id": 3,
+            "poster_path": "https://some-image-3.jpg",
+            "release_date": "2002-05-31",
+            "title": "Untitled Avengers",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+  <Link
+    as="/film/2"
+    href="/film?id=2"
+    key="2"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+              "Genre 2",
+            ],
+            "id": 2,
+            "poster_path": "https://some-image-2.jpg",
+            "release_date": "2001-03-31",
+            "title": "Test title 2",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+  <Link
+    as="/film/1"
+    href="/film?id=1"
+    key="1"
+  >
+    <Linkstyles__StyledLink
+      color="#010101"
+    >
+      <Film
+        film={
+          Object {
+            "genres": Array [
+              "Genre 1",
+            ],
+            "id": 1,
+            "poster_path": "https://some-image-1.jpg",
+            "release_date": "2000-01-31",
+            "title": "Test title 1",
+          }
+        }
+        onClick={[Function]}
+      />
+    </Linkstyles__StyledLink>
+  </Link>
+</Films>
+`;
+
+exports[`Films should render loader (snapshot) 1`] = `
+<Basestyles__StyledLoader>
+  <Loader
+    color="#00BFFF"
+    height="300"
+    type="Puff"
+    width="300"
+  />
+  ;
+</Basestyles__StyledLoader>
+`;
